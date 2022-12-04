@@ -19,7 +19,17 @@ Build image:
 Run image
 `docker run -p 3000:3000 --name todo-app todo-app`
 
+# Using Cloudant
+install IBM Cloudant client:
+`npm install @ibm-cloud/cloudant`
 
+for local development:  
+Create the file .env.local in the todo-app folder
+```
+CLOUDANT_URL= https://ddfc6f2b-ef9a-4f90-bc21-7b4721757507-bluemix.cloudant.com
+CLOUDANT_APIKEY=DWyHXeu……..
+CLOUDANT_DB_NAME=todo-db
+```
 
 
 
